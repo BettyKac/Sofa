@@ -1,0 +1,26 @@
+.hlavniDiv { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  width: 40rem;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  width: 40rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h2 {
+  color: palevioletred;
+}
+p {
+  font-size: large;
+  font-weight: 600;
+}
+.sofa {
+  color: palevioletred;
+}
