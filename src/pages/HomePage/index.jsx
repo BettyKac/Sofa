@@ -7,7 +7,7 @@ export const HomePage = () => {
   const [aktualniDatum, setAktualniDatum] = useState(null);
 
   useEffect(() => {
-    fetch('http://worldtimeapi.org/api/timezone/Europe/Prague')
+    fetch('https://worldtimeapi.org/api/timezone/Europe/Prague')
       .then((response) => response.json())
       .then((data) => {
         const timeNow = new Date(data.utc_datetime);
