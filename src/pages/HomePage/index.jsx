@@ -20,7 +20,7 @@ export const HomePage = () => {
 
   return (
     <div className='hlavniDiv'>
-      <h1>BEJBE kolikrát se ještě musím vyspinkat, než tu bude Sofa??</h1>
+      <h1>BEJBE kolikrát se ještě musím vyspinkat, než tu bude Sófa??</h1>
       <main>
       {aktualniDatum && <Sofa aktualniDatum={aktualniDatum} />}
       </main>
